@@ -1,0 +1,61 @@
+table{
+    border: 1px solid springgreen;
+    margin: auto;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+td{
+    border: 0.5px black;
+}
+
+tr,th {
+    border: 1px solid springgreen;
+}
+
+tr :hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+ol{
+    margin: 100px;
+    list-style: square;
+}
+
+ul{
+    list-style: none;
+    height: 150px;
+    text-align: center;
+    background-color: black;
+}
+
+ul > li{
+    list-style: none;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 50px;
+    width: 10%;
+    padding: 10px;
+    display: inline-block;
+    border: 5px solid white;
+    background-color: black;
+    transition: background-color 1s;
+}
+
+ul > li:hover{
+    background-color: springgreen;
+    transition: background-color 1s;
+}
+
+ul > li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: background-color;
+}
+

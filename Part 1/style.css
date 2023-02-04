@@ -1,0 +1,53 @@
+.box {
+    width: 60%;
+    margin: auto;
+    margin-top: 100px;
+    background-color: blueviolet;
+}
+
+.item {
+    background-color: rgba(255, 0, 0, 0.5);
+    margin: 5;
+    display: inline-block;
+}
+
+.i-1 {
+    border: 10px solid orange;
+}
+
+.i-2 {
+    border: 10px solid blue;
+}
+
+body {
+    background-image: url("https://mirpozitiva.ru/wp-content/uploads/2019/11/1478782925_kartina_vesna.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.item > img{
+    width: 300px;
+    height: 300px;
+    transition: 2s;
+}
+
+.img-box{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 40%;
+}
+
+.img-box >img:hover{
+    width: 400px;
+    height: 400px;
+    transition: 2s;
+}
+
+.item > h1, p{
+    margin-left: 10px;
+    color: white;
+}
+
